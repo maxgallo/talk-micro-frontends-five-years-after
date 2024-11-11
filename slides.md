@@ -1,5 +1,5 @@
 # [fit] Micro-frontends
-### [fit] **three years after**
+### [fit] **five years after**
 
 <br />
 <br />
@@ -120,31 +120,35 @@ Takeaways
 
 ---
 
-# [fit] __DAZN Micro-frontends__ Manifesto
 
-### ☞ __Modelled around a Business Subdomain__
-### ☞ __Independent implementation__
-### ☞ __Owned by a single team__
-### ☞ __Entire view__
+# DAZN __Composition__
 
-<br><br><br><br><br>
-### @**_maxgallo**
+![original 50%](./images/dazn_composition.png)
 
-![original 50%](./images/manifesto.png)
+^ Single Page Application
+^ Orchestrator does the routing as well
 
-<!--
+---
 
-# [fit] __2018__ Runtime Frontend Architecture
+![left 52%](./images/dazn_mfe.png)
+
+# Modelled around a Business Subdomain
+# __Independent implementation__
+# Owned by a single team
+# __Entire view (Vertical Micro-Frontends)__
+
+---
+
+# [fit] __2019__ Frontend Architecture
 
 
-![original 60%](./images/bootstrap.png)
+![inline 52%](./images/2019_architecture.png)
 
 
 ^ 6 Vertical MFE (catalog, auth, landingpage, help, myaccount, error)
 ^ Bootstrap: clientside orchestrator
 ^ Not a single line of code shared
 ^ Autonomous teams
--->
 
 ---
 ...and they lived happily ever after
@@ -264,6 +268,16 @@ Takeaways
 ^ Comparison: Module Federation or Single-SPA ?
 -->
 
+---
+
+# [fit] __2024__ Frontend Architecture
+
+![inline 52%](./images/architecture_2024.png)
+
+^ 6 Vertical MFE (catalog, auth, landingpage, help, myaccount, error)
+^ Bootstrap: clientside orchestrator
+^ Not a single line of code shared
+^ Autonomous teams
 
 ---
 
@@ -296,6 +310,7 @@ Takeaways
 [.column]
 <br><br><br><br><br>
 ## ☞ __Frontend Guilds__
+## ☞ __Internal Meetups__
 ## ☞ __Principals & Architects__
 
 ---
@@ -309,7 +324,9 @@ Takeaways
 [.column]
 <br><br><br><br><br>
 ## ☞ __Request For Comments (aka RFC)__
-## ☞ __Decision Records (aka ADR)__
+## ☞ __Architecture Decision Records (aka ADR)__
+
+^ even for small things
 
 ---
 
@@ -332,6 +349,14 @@ Takeaways
 <br>
 
 ^ Duplicating by design
+
+---
+
+![right 65%](./images/dazn_duplication.png)
+
+# __To favor teams independence, we__ duplicated by design
+
+^ Lots of push back
 
 ---
 
@@ -387,7 +412,7 @@ Critical component
 
 [.column]
 ## ☞ __Analytics__
-Risks in duplication
+Risks of Fragmentation
 
 [.column]
 <br>
@@ -404,7 +429,7 @@ Critical component
 
 [.column]
 ## ☞ __Analytics__
-Risks in duplication
+Risks of Fragmentation
 
 [.column]
 ## ☞ __Experiments__
@@ -428,7 +453,7 @@ __☞__ It's always about _people_
 #[fit] Thank You
 
 
-# [fit] **github.com/maxgallo/talk-micro-frontends-three-years-after**
+# [fit] **github.com/maxgallo/talk-micro-frontends-five-years-after**
 <br>
 
 
