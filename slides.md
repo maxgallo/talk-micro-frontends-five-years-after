@@ -79,9 +79,8 @@ Takeaways
 # Agenda
 
 ## ☞ __Once Upon a Time__
-## ☞ __Domain Boundaries Evolution__
-## ☞ __Beyond Team Autonomy__
-## ☞ __Sharing Code__
+## ☞ __Adapting to Change__
+## ☞ __Sharing Ideas & Sharing Code__
 
 ---
 
@@ -90,7 +89,7 @@ Takeaways
 
 [.column]
 # [fit] __Once Upon a Time__
-### Part 1 of 4
+### Part 1 of 3
 
 [.column]
 <br>
@@ -120,8 +119,183 @@ Takeaways
 
 ---
 
+# [fit] PAUSE
+![right 25%](./images/control_pause.png)
 
-# DAZN __Composition__
+---
+
+[.background-color: #F5A91B]
+
+# [fit] __Micro-Frontends__ Decision Framework
+![original 40%](./images/decision_framework.png)
+
+---
+
+[.background-color: #F5A91B]
+
+# [fit] __Decision Framework__ Definition
+
+![original 45%](./images/vertical_horizontal.png)
+
+^ - Vert: Module Federation, Single SPA
+
+---
+
+[.background-color: #F5A91B]
+# [fit] __Decision Framework__ Definition
+
+<br>
+
+[.column]
+
+## Vertical
+
+### ☞ _Ownership & Freedom End to End_
+### ☞ _Easier to Support_
+
+[.column]
+
+## Horizontal
+
+### ☞ _Favor Reusability_
+### ☞ _Harder to orchestrate_
+
+^ - Vertical could be Multi Fraemework
+- Horizontal can own one or more MFE
+
+---
+
+[.background-color: #F5A91B]
+# [fit] __Decision Framework__ Composition
+
+![original 40%](./images/composition_1.png)
+
+^ - Server: Good for very slow clients
+- Can cache on CDN
+
+---
+
+[.background-color: #F5A91B]
+# [fit] __Decision Framework__ Composition
+
+![original 40%](./images/composition_2.png)
+
+^ - Edge: Good for very slow clients
+- Edge Side Include (ESI)
+
+---
+
+[.background-color: #F5A91B]
+# [fit] __Decision Framework__ Composition
+
+![original 40%](./images/composition_3.png)
+
+
+
+---
+
+[.background-color: #F5A91B]
+# [fit] __Decision Framework__ Composition
+
+![original 40%](./images/composition.png)
+
+^ - Consider your Caching strategy
+- Consider your FE clients (eg. memory available)
+
+---
+
+[.background-color: #F5A91B]
+# [fit] __Decision Framework__ Routing
+<br>
+
+[.column]
+## Origin/Server
+
+### ☞ _Both Horiz & Vert_
+
+[.column]
+## Edge
+
+[.column]
+## Client
+
+---
+
+[.background-color: #F5A91B]
+# [fit] __Decision Framework__ Routing
+<br>
+
+[.column]
+## Origin/Server
+
+### ☞ _Both Horiz & Vert_
+
+[.column]
+## Edge
+
+### ☞ _Not common_
+### ☞ _Idea: canary releases & AB testing_
+
+[.column]
+## Client
+
+---
+
+[.background-color: #F5A91B]
+# [fit] __Decision Framework__ Routing
+<br>
+
+[.column]
+## Origin/Server
+
+### ☞ _Both Horiz & Vert_
+
+[.column]
+## Edge
+
+### ☞ _Not common_
+### ☞ _Idea: canary releases & AB testing_
+
+[.column]
+## Client
+
+### ☞ _Always download app-shell first_
+### ☞ _(Vertical) Split routing ownership_
+
+---
+
+[.background-color: #F5A91B]
+# [fit] __Decision Framework__ Communication
+
+<br><br>
+
+[.column]
+## Vertical
+
+### ☞ _Browser storage_
+### ☞ _Url params (watch out for URL lenght)_
+
+[.column]
+## Horizontal
+### ☞ _Event Bus (very popular)_
+### ☞ _Host config (eg. React Props)_
+
+---
+
+[.background-color: #F5A91B]
+
+# [fit] __Micro-Frontends__ Decision Framework
+![original 40%](./images/decision_framework.png)
+
+
+---
+
+# [fit] PLAY
+![right 25%](./images/control_play.png)
+
+---
+
+# __DAZN__ Composition
 
 ![original 50%](./images/dazn_composition.png)
 
@@ -130,19 +304,21 @@ Takeaways
 
 ---
 
-![left 52%](./images/dazn_mfe.png)
+# __Orchestrator__ Deep Dive
 
-# Modelled around a Business Subdomain
-# __Independent implementation__
-# Owned by a single team
-# __Entire view (Vertical Micro-Frontends)__
+![original 60%](./images/orchestrator_deep_dive.png)
 
 ---
 
-# [fit] __2019__ Frontend Architecture
+# [fit] __Vertical Micro-Frontend__ Deep Dive
+![original 60%](./images/vertical_mfe_deep_dive.png)
+
+---
+
+# [fit] __DAZN 2019__ Frontend Architecture
 
 
-![inline 52%](./images/2019_architecture.png)
+![inline 52%](./images/architecture_2019.png)
 
 
 ^ 6 Vertical MFE (catalog, auth, landingpage, help, myaccount, error)
@@ -151,7 +327,17 @@ Takeaways
 ^ Autonomous teams
 
 ---
+
+# __DAZN 2019__ Decision Framework
+
+![original 40%](./images/dazn_decision_framework.png)
+
+
+---
 ...and they lived happily ever after
+
+^ - For a while
+  - Anecdote: First Time someone released a Micro Frontends without involving me, I was super happy
 
 ---
 
@@ -163,8 +349,8 @@ Takeaways
 ![original fit](./images/book_2.png)
 
 [.column]
-# [fit] __Domain Boundaries Evolution__
-### Part 2 of 4
+# [fit] __Adapting to Change__
+### Part 2 of 3
 
 [.column]
 <br>
@@ -256,42 +442,38 @@ Takeaways
 ^ Breaking Changes releases (major in semver) are blocked by host
 ^ Other releases (Minor & patch) are owned by team
 
-
-
-<!--
-# [fit] __Solution #2__ Horizontal Micro-Frontends
-
-![original 55%](./images/solution2.png)
-
-
-^ systemJS wrapper
-^ Comparison: Module Federation or Single-SPA ?
--->
-
 ---
 
-# [fit] __2024__ Frontend Architecture
+
+# [fit] __DAZN 2024__ Frontend Architecture
 
 ![inline 52%](./images/architecture_2024.png)
 
-^ 6 Vertical MFE (catalog, auth, landingpage, help, myaccount, error)
-^ Bootstrap: clientside orchestrator
-^ Not a single line of code shared
-^ Autonomous teams
+^ - Developer Experience effort
+  - This is not cheap to build 
+
+
+---
+
+# [fit] __DAZN 2024__ Decision Framework
+
+![original 40%](./images/dazn_decision_framework2.png)
 
 ---
 
 ![original fit](./images/book_3.png)
 
 [.column]
-# [fit] __Beyond Team Autonomy__
-### Part 3 of 4
+# [fit] __Sharing Ideas & Sharing Code__
+### Part 3 of 3
 
 [.column]
 <br>
 
+^ Need to take care of the human part
+
 ---
-# __Very autonomous Teams are at risk to create__ silos
+# __Autonomous Teams are at risk of creating__ Knowledge Silos
 
 ![right 48%](./images/team_silos.png)
 
@@ -313,7 +495,7 @@ Takeaways
 ## ☞ __Internal Meetups__
 ## ☞ __Principals & Architects__
 
----
+<!--
 
 [.column]
 # __Favor local decisions__ but have a plan for global decisions
@@ -327,6 +509,7 @@ Takeaways
 ## ☞ __Architecture Decision Records (aka ADR)__
 
 ^ even for small things
+-->
 
 ---
 
@@ -339,20 +522,16 @@ Takeaways
 
 ---
 
-![original fit](./images/book_4.png)
-
 [.column]
-# [fit] __Sharing Code__
-### Part 4 of 4
+# __We're now sharing ideas__ Should we also share code?
 
 [.column]
 <br>
 
-^ Duplicating by design
-
 ---
 
-![right 65%](./images/dazn_duplication.png)
+
+![right 55%](./images/dazn_duplication.png)
 
 # __To favor teams independence, we__ duplicated by design
 
@@ -386,12 +565,12 @@ Takeaways
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ---
-# __What are we sharing and__ why
+# __What are we sharing__
 
 <br>
 
 [.column]
-## ☞ __Payments__
+## ☞ Payments
 Critical component
 
 [.column]
@@ -402,16 +581,16 @@ Critical component
 
 ---
 
-# __What are we sharing and__ why
+# __What are we sharing__
 
 <br>
 
 [.column]
-## ☞ __Payments__
+## ☞ Payments
 Critical component
 
 [.column]
-## ☞ __Analytics__
+## ☞ Analytics
 Risks of Fragmentation
 
 [.column]
@@ -419,33 +598,35 @@ Risks of Fragmentation
 
 ---
 
-# __What are we sharing and__ why
+# __What are we sharing__
 
 <br>
 
 [.column]
-## ☞ __Payments__
+## ☞ Payments
 Critical component
 
 [.column]
-## ☞ __Analytics__
+## ☞ Analytics
 Risks of Fragmentation
 
 [.column]
-## ☞ __Experiments__
+## ☞ Experiments
 Hard to provide autonomy
 
 ---
 
 # [fit] Takeaways
 
-__☞__ Your business subdomains are _not immutable_
-__☞__ Share as a _solution_ not as a _goal_
-__☞__ It's always about _people_
+__☞__ Your business subtomains, and your Micro-Frontends, are _not immutable_
+__☞__ Share code is a _solution_ to a problem - not a _goal_
+__☞__ It's always about _People_
 
 <br><br><br><br><br>
 
 ### @**_maxgallo**
+
+
 ---
 
 <br>
