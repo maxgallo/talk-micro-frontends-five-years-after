@@ -9,7 +9,7 @@
 
 ---
 
-## __In 2019 I was on this stage with__ Luca Mezzalira __to introduce DAZN approach to__ Micro-frontends
+## __In 2019 I was on stage with__ Luca Mezzalira __to introduce DAZN approach to__ Micro-frontends
 
 ![right fill filtered](./images/max_luca.JPG)
 
@@ -172,6 +172,7 @@ Takeaways
 
 ## Horizontal
 
+### ☞ _Release part of a view_
 ### ☞ _Favor Reusability_
 ### ☞ _Harder to orchestrate_
 
@@ -302,7 +303,7 @@ Takeaways
 [.background-color: #F5A91B]
 
 # [fit] __Micro-Frontends__ Decision Framework
-![original 40%](./images/decision_framework.png)
+![original 40%](./images/decision_framework_no_luca.png)
 
 
 ---
@@ -312,7 +313,7 @@ Takeaways
 
 ---
 
-# __DAZN__ Composition
+# __DAZN__ Composition & Routing
 
 ![original 50%](./images/dazn_composition.png)
 
@@ -321,13 +322,13 @@ Takeaways
 
 ---
 
-# __Orchestrator__ Deep Dive
+# __DAZN__ Orchestrator
 
 ![original 60%](./images/orchestrator_deep_dive.png)
 
 ---
 
-# [fit] __Vertical Micro-Frontend__ Deep Dive
+# __DAZN__ Vertical Micro-Frontend
 ![original 60%](./images/vertical_mfe_deep_dive.png)
 
 ---
@@ -557,7 +558,7 @@ Takeaways
 
 ---
 
-# What's important for you ?
+# __What's important for__ you __?__
 ![original 55%](./images/dazn_duplication_scale.png)
 
 
