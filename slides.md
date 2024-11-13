@@ -25,11 +25,26 @@ https://bit.ly/talk-max-luca
 
 ### 🇮🇹 🇬🇧 🍝 💻 🎶 🏍 📷 ✈️ ✍️
 
-### **Principal Engineer @ DAZN**
+### **Distinguished Engineer @ DAZN**
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 ### twitter: @**_maxgallo**
+### web: **maxgallo.io**
+
+![right 30%](./images/me.png)
+
+---
+
+# [fit] Hi 👋 I'm Max
+
+### 🇮🇹 🇬🇧 🍝 💻 🎶 🏍 📷 ✈️ ✍️
+
+### **Distinguished Engineer @ DAZN**
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+### x: @**_maxgallo**
 ### web: **maxgallo.io**
 
 ![right 30%](./images/me.png)
@@ -76,7 +91,7 @@ Takeaways
 
 -->
 
-# Agenda
+# Our Journey
 
 ## ☞ __Once Upon a Time__
 ## ☞ __Adapting to Change__
@@ -206,7 +221,7 @@ Takeaways
 
 [.background-color: #F5A91B]
 # [fit] __Decision Framework__ Routing
-<br>
+![inline 40%](./images/routing.png)
 
 [.column]
 ## Origin/Server
@@ -223,7 +238,7 @@ Takeaways
 
 [.background-color: #F5A91B]
 # [fit] __Decision Framework__ Routing
-<br>
+![inline 40%](./images/routing.png)
 
 [.column]
 ## Origin/Server
@@ -243,7 +258,7 @@ Takeaways
 
 [.background-color: #F5A91B]
 # [fit] __Decision Framework__ Routing
-<br>
+![inline 40%](./images/routing.png)
 
 [.column]
 ## Origin/Server
@@ -260,7 +275,7 @@ Takeaways
 ## Client
 
 ### ☞ _Always download app-shell first_
-### ☞ _(Vertical) Split routing ownership_
+### ☞ _(Vertical) Routing Prefix ownership_
 
 ---
 
@@ -273,12 +288,14 @@ Takeaways
 ## Vertical
 
 ### ☞ _Browser storage_
-### ☞ _Url params (watch out for URL lenght)_
+### ☞ _Url params_
 
 [.column]
 ## Horizontal
 ### ☞ _Event Bus (very popular)_
 ### ☞ _Host config (eg. React Props)_
+
+^ - Watch out for URL lenght
 
 ---
 
@@ -393,7 +410,7 @@ Takeaways
 ---
 
 # __A Subdomain did contain a complex subsystem[^1] that__ was not considered a Micro-frontend
-![right 65%](./images/single_view.png)
+![right 75%](./images/single_view.png)
 
 [^1]: From "Team Topologies"
 
@@ -515,7 +532,8 @@ Takeaways
 
 # __Enable Discovery__ beyond Teams
 
-<br><br><br><br><br>
+<br><br><br>
+### ☞ __Developer Experience__ DX
 ### ☞ __Backstage (Spotify)__
 
 ![right 40%](./images/backstage.png)
@@ -539,7 +557,13 @@ Takeaways
 
 ---
 
-# __Not a single visual component has been shared across all the Micro-frontends,__ yet
+# What's important for you ?
+![original 55%](./images/dazn_duplication_scale.png)
+
+
+---
+
+# __Not a single__ visual __component has been shared across all the Micro-frontends,__ yet
 
 ![right 45%](./images/share.png)
 
@@ -618,11 +642,13 @@ Hard to provide autonomy
 
 # [fit] Takeaways
 
+
+<br>
+
 __☞__ Your business subtomains, and your Micro-Frontends, are _not immutable_
-__☞__ Share code is a _solution_ to a problem - not a _goal_
+__☞__ Sharing code is a _solution_ to a problem - not a _goal_
 __☞__ It's always about _People_
 
-<br><br><br><br><br>
 
 ### @**_maxgallo**
 
