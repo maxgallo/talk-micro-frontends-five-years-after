@@ -1,3 +1,6 @@
+theme: Inter, 2
+
+
 # [fit] Micro-frontends
 ### [fit] **five years after**
 
@@ -18,36 +21,6 @@
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 https://bit.ly/talk-max-luca
-
----
-
-# [fit] Hi 👋 I'm Max
-
-### 🇮🇹 🇬🇧 🍝 💻 🎶 🏍 📷 ✈️ ✍️
-
-### **Distinguished Engineer @ DAZN**
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-### twitter: @**_maxgallo**
-### web: **maxgallo.io**
-
-![right 30%](./images/me.png)
-
----
-
-# [fit] Hi 👋 I'm Max
-
-### 🇮🇹 🇬🇧 🍝 💻 🎶 🏍 📷 ✈️ ✍️
-
-### **Distinguished Engineer @ DAZN**
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-### x: @**_maxgallo**
-### web: **maxgallo.io**
-
-![right 30%](./images/me.png)
 
 ---
 
@@ -91,11 +64,55 @@ Takeaways
 
 -->
 
-# Our Journey
+# From Then to Now
+
+## ☞ __Once Upon a Time__
+
+---
+
+# From Then to Now
+
+## ☞ __Once Upon a Time__
+## ☞ __Adapting to Change__
+
+---
+
+# From Then to Now
 
 ## ☞ __Once Upon a Time__
 ## ☞ __Adapting to Change__
 ## ☞ __Sharing Ideas & Sharing Code__
+
+---
+
+
+# [fit] Hi 👋 I'm Max
+
+### 🇮🇹 🇬🇧 🍝 💻 🎶 🏍 📷 ✈️ ✍️
+
+### **Distinguished Engineer @ DAZN**
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+### web: **maxgallo.io**
+### twitter: @**_maxgallo**
+
+![right 30%](./images/me.png)
+
+---
+
+# [fit] Hi 👋 I'm Max
+
+### 🇮🇹 🇬🇧 🍝 💻 🎶 🏍 📷 ✈️ ✍️
+
+### **Distinguished Engineer @ DAZN**
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+### web: **maxgallo.io**
+### x: @**_maxgallo**
+
+![right 30%](./images/me.png)
 
 ---
 
@@ -463,7 +480,7 @@ Takeaways
 ---
 
 
-# [fit] __DAZN 2024__ Frontend Architecture
+# [fit] __DAZN 2025__ Frontend Architecture
 
 ![inline 52%](./images/architecture_2024.png)
 
@@ -473,7 +490,7 @@ Takeaways
 
 ---
 
-# [fit] __DAZN 2024__ Decision Framework
+# [fit] __DAZN 2025__ Decision Framework
 
 ![original 40%](./images/dazn_decision_framework2.png)
 
@@ -509,9 +526,9 @@ Takeaways
 
 [.column]
 <br><br><br><br><br>
-## ☞ __Frontend Guilds__
 ## ☞ __Internal Meetups__
-## ☞ __Principals & Architects__
+## ☞ __Principals & Staff Eng__
+## ☞ __Plan it !f__
 
 <!--
 
@@ -643,6 +660,29 @@ Hard to provide autonomy
 
 # [fit] Takeaways
 
+<br>
+
+__☞__ Your business subtomains, and your Micro-Frontends, are _not immutable_
+<br>
+<br>
+
+### @**_maxgallo**
+
+---
+
+# [fit] Takeaways
+
+<br>
+
+__☞__ Your business subtomains, and your Micro-Frontends, are _not immutable_
+__☞__ Sharing code is a _solution_ to a problem - not a _goal_
+<br>
+
+### @**_maxgallo**
+
+---
+
+# [fit] Takeaways
 
 <br>
 
@@ -652,7 +692,6 @@ __☞__ It's always about _People_
 
 
 ### @**_maxgallo**
-
 
 ---
 
