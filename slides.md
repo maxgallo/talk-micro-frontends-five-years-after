@@ -700,8 +700,11 @@ __☞__ It's always about _People_
 #[fit] Thank You
 
 
-# [fit] **github.com/maxgallo/talk-micro-frontends-five-years-after**
+# **github.com/maxgallo/talk-micro-frontends-five-years-after**
+
 <br>
+
+![right 30%](./images/qrcode_agenda.png)
 
 
 ### @**_maxgallo**
