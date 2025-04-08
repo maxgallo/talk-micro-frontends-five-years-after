@@ -528,7 +528,7 @@ Takeaways
 <br><br><br><br><br>
 ## ☞ __Internal Meetups__
 ## ☞ __Principals & Staff Eng__
-## ☞ __Plan it !f__
+## ☞ __Plan it !__
 
 <!--
 
